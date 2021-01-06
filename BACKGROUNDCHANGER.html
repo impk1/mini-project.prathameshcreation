@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+
+    <title>
+        blackground changer
+    </title>
+    <style>
+      body{
+
+          background: #000;
+
+          
+      }
+      
+    button{
+
+        border-style: double;
+        border-color: rgb(203, 224, 14);
+        border-width: 5px;
+        margin: 25em;
+        color:rgba(14, 192, 236, 0.863);
+        block-size: 3em;
+        text-decoration: skyblue;
+        font-size: 1em;
+        margin-right: 29em;
+    }
+    button:hover {
+
+    
+        background-color: rgb(238, 178, 14);
+        transform :translate(7px,1px);
+
+    }
+    div{
+        color: darkcyan;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: solid;
+        border-width: 1em;
+        margin-left: 25em;
+        margin-right:29em ; 
+    }
+    
+    </style>
+</head>
+<body>
+    
+<script lang="javascript">
+    function sclick() {
+
+    document.body.style.backgroundColor = "yellow";    
+        
+    }
+    function dbclick(){
+        document.body.style.backgroundColor="violet"
+        
+
+    }
+ function mre()
+ {
+     document.body.style.backgroundColor = "black"
+ }
+</script>
+<div align = "center" id="text">
+<h4>  1) on single mouse click : background color = yellow </h4>
+<h4>  2) on double mouse click : background color = violet </h4>
+</div>
+    <bold></bold><center><button onclick="sclick()"  ondblclick="dbclick()" onmousemove="mre()">  click me </button></center></bold>
+</body>
