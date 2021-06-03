@@ -1,2 +1,2 @@
 # mini-project.prathameshcreation
-a beginner boy's self code work for learning new things !
+we use some build-in functions like onclick() to get a desired outut.
